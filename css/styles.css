@@ -1,0 +1,13 @@
+nav {
+    border-bottom: 1px solid lightgray;
+    background-image: linear-gradient(to left, grey, lightgray, white);
+}
+
+.album-banner {
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, rgba(40, 148, 72, 0.637), rgb(64, 158, 35), rgb(190, 163, 6));
+}
+
+.join-form {
+    border-radius: 10px;
+}
