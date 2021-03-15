@@ -1,3 +1,8 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+
 nav {
     border-bottom: 1px solid lightgray;
     background-image: linear-gradient(to left, grey, lightgray, white);
@@ -16,5 +21,18 @@ nav {
     border: gray solid 1px;
     padding-bottom: 0;
     margin-bottom: 25px;
-    background-image: linear-gradient(to bottom left, grey, lightgray, white);
+    background-image: linear-gradient(to bottom left, lightgray, white);
+}
+
+.about-img {
+    border-radius: 100px;
+}
+
+.album-gallery {
+    box-shadow: black (1px, 1px, 1px);
+}
+
+.contact-headers {
+    text-decoration: underline;
+    font: 18px bold;
 }

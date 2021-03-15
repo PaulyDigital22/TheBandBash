@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>Bash</title>
 </head>
@@ -35,13 +37,13 @@
             <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#bashNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-center" id="bashNavbar">
+            <div class="collapse navbar-collapse justify-content-center mr-5" id="bashNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="music.html">Music</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Tour</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Merch</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tour.html">Tour</a></li>
+                    <li class="nav-item"><a class="nav-link" href="merch.html">Merch</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
@@ -49,7 +51,7 @@
     </nav>
     <div class="container">
         <div class="row row-content">
-            <div class="col-10 mx-auto">
+            <div class="col-10 mx-auto mt-5">
                 <div id="homeCarousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#homeCarousel" data-slide-to="0" class="active"> </li>
@@ -98,19 +100,19 @@
                 <h1>Latest News</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis sed odio ac accumsan. Maecenas eget mi sed magna posuere tempus sit amet sit amet sapien. Nullam id ante a quam congue pretium id vitae lacus. Morbi iaculis ipsum a massa volutpat, a vulputate ligula venenatis.</p>
-                <a href="#news.html" class="btn text-dark">More</a>
+                <a href="news.html" class="btn text-dark">More<i class="fa fa-arrow-right text-secondary ml-2"></i></a>
             </div>
             <div class="col-md-4 lower-links">
                 <h1>Latest Content</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                <img src="img/husam-nazmi-D3ymWjDUXss-unsplash.jpg" width="170" alt="">
-                <p><a href="#music.html" class="btn text-dark">More</a></p>
+                <img src="img/husam-nazmi-D3ymWjDUXss-unsplash.jpg" width="170" height="170" alt="">
+                <p><a href="music.html" class="btn text-dark">More<i class="fa fa-arrow-right text-secondary ml-2"></i></a></p>
             </div>
             <div class="col-md-4 lower-links">
                 <h1>Merchandise</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                <img src="img/keagan-henman-Won79_9oUEk-unsplash.jpg" width="200" height="185" alt="">
-                <p><a href="#merch.html" class="btn text-dark">More</a></p>
+                <img src="img/keagan-henman-Won79_9oUEk-unsplash.jpg" width="200" height="170" alt="">
+                <p><a href="merch.html" class="btn text-dark">More<i class="fa fa-arrow-right text-secondary ml-2"></i></a></p>
             </div>
         </div>
     </div>
@@ -123,8 +125,8 @@
                         <li><a class="text-secondary" href="#">Home</a></li>
                         <li><a class="text-secondary" href="about.html">About</a></li>
                         <li><a class="text-secondary" href="music.html">Music</a></li>
-                        <li><a class="text-secondary" href="#">Tour</a></li>
-                        <li><a class="text-secondary" href="#">Merch</a></li>
+                        <li><a class="text-secondary" href="tour.html">Tour</a></li>
+                        <li><a class="text-secondary" href="merch.html">Merch</a></li>
                         <li><a class="text-secondary" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
@@ -156,7 +158,6 @@
                 </div>
             </div>
         </div>
-
     </footer>
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
