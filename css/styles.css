@@ -36,3 +36,7 @@ nav {
     text-decoration: underline;
     font: 18px bold;
 }
+
+.tour-dates {
+    border: black solid 1px;
+}
